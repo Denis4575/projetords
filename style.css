@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html body{
+  height: 100vh;/*altura*/
+  width: 100vw;/*largura*/
+  Background-color: Black;
+}
+Body{
+   Background:url(img/fundo.jpg) no-repeat top center; 
+   Background-size: cover;  
+   Background-attachment: fixed;
+}
+main{
+    position: relative;
+    height: 100vh;
+    position: relative;
+    Background-color:green;
+}
+    section#telefone {
+        position :absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 627px;
+        width:311px;
+        Background-color:blue;
+        Background: url(img/telefone.png) no-repeat center;
+ 
+    }
